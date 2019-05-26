@@ -180,7 +180,7 @@
                                             <rect key="frame" x="20" y="110" width="335" height="30"/>
                                             <nil key="textColor"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                            <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
+                                            <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES" secureTextEntry="YES" textContentType="password"/>
                                         </textField>
                                         <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qbE-Tv-zNo">
                                             <rect key="frame" x="20" y="200" width="335" height="29"/>
@@ -255,7 +255,7 @@
                                 </view>
                                 <blurEffect style="light"/>
                             </visualEffectView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MbA-yZ-3H8">
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MbA-yZ-3H8">
                                 <rect key="frame" x="184" y="607" width="46" height="32"/>
                                 <state key="normal" title="Home"/>
                                 <connections>
@@ -1011,7 +1011,7 @@
                                             <rect key="frame" x="20" y="110" width="335" height="30"/>
                                             <nil key="textColor"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                            <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
+                                            <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES" secureTextEntry="YES" textContentType="password"/>
                                         </textField>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="19b-O2-QIb">
                                             <rect key="frame" x="20" y="200" width="334" height="29"/>
@@ -1041,7 +1041,7 @@
                                             <rect key="frame" x="20" y="152" width="335" height="30"/>
                                             <nil key="textColor"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                            <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
+                                            <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES" secureTextEntry="YES" textContentType="password"/>
                                         </textField>
                                     </subviews>
                                     <constraints>
@@ -1120,7 +1120,8 @@
         <image name="splash-icon" width="1066" height="1065"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="yUj-g9-pKf"/>
         <segue reference="pAA-ia-udV"/>
-        <segue reference="kYH-Y7-Fb7"/>
+        <segue reference="bon-UE-scj"/>
     </inferredMetricsTieBreakers>
 </document>
